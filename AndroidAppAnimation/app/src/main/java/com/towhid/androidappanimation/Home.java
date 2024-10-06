@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Home extends AppCompatActivity {
 
-    private Button btnHello;
+//    private Button btnHello;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +26,15 @@ public class Home extends AppCompatActivity {
             return insets;
         });
 
-        btnHello=findViewById(R.id.btnHello);
-        btnHello.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent=new Intent(getApplicationContext(), Hello.class);
-                startActivity(intent);
-
-            }
-        });
+//        btnHello=findViewById(R.id.btnHello);
+//        btnHello.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                Intent intent=new Intent(getApplicationContext(), Hello.class);
+//                startActivity(intent);
+//
+//            }
+//        });
     }
 }

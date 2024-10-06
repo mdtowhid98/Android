@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/splas"
-        android:layout_width="@dimen/_410sdp"
-        android:layout_height="@dimen/_550sdp"
+        android:layout_width="396dp"
+        android:layout_height="696dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
