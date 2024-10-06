@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background3"
-
+    android:background="@drawable/bagkground9"
     tools:context=".Home">
 
 
@@ -18,78 +15,132 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="@dimen/_7sdp"
+                android:orientation="vertical"
+                android:background="@drawable/home_top"  >
 
-                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="@dimen/_100sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:src="@drawable/twiter" />
+                    <ImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:src="@drawable/logo4"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:src="@drawable/logo5"/>
+
+
+                </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textSize="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"/>
 
-
-                <ImageView
-                    android:layout_width="@dimen/_100sdp"
-                    android:layout_height="112dp"
-
-                    android:src="@drawable/bagkground9" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dhanmondi"
+                    android:textSize="@dimen/_20sdp"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"/>
 
 
             </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/home_middle">
 
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/bagkground9" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="wdvbn"
-                    android:textSize="@dimen/_10sdp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/logo"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Notifations"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|italic"
+                        android:textSize="@dimen/_15sdp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@color/cardview_dark_background"/>
-                <TextView
-                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_60sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/logo3"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Proud"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|italic"
+                        android:textSize="@dimen/_15sdp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="twddgw"
-                    android:textSize="@dimen/_10sdp"/>
+                    android:orientation="vertical"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_60sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/logo2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="habijabi"
+                        android:textStyle="bold|italic"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp"/>
+                </LinearLayout>
+
+
             </LinearLayout>
 
-
         </LinearLayout>
-
-
     </ScrollView>
-
-
 </RelativeLayout>

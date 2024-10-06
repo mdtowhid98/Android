@@ -6,7 +6,7 @@
     android:toXScale="1.0"
     android:toYScale="1.0"
     android:fillAfter="true"
-    android:duration="3000"
+    android:duration="6000"
 
     />
 
