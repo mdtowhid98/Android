@@ -13,6 +13,12 @@
         android:theme="@style/Theme.KobitarVandar"
         tools:targetApi="31">
         <activity
+            android:name=".BidrohiKobita"
+            android:exported="false" />
+        <activity
+            android:name=".KajiNazrulKobitaSamuho"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

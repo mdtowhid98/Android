@@ -78,6 +78,7 @@
                 android:orientation="vertical">
 
              <LinearLayout
+                 android:id="@+id/kajinajrulkobitasamuh"
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="horizontal">
@@ -85,6 +86,7 @@
                  <ImageView
                      android:layout_width="@dimen/_50sdp"
                      android:layout_height="wrap_content"
+                     android:layout_margin="@dimen/_7sdp"
                      android:src="@drawable/najrul"/>
 
                  <TextView
@@ -118,6 +120,7 @@
                     <ImageView
                         android:layout_width="@dimen/_50sdp"
                         android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_7sdp"
                         android:src="@drawable/robindranath"/>
 
                     <TextView
@@ -151,6 +154,7 @@
                     <ImageView
                         android:layout_width="@dimen/_50sdp"
                         android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_7sdp"
                         android:src="@drawable/jasimuddin"/>
 
                     <TextView
@@ -184,12 +188,13 @@
                     <ImageView
                         android:layout_width="@dimen/_50sdp"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/najrul"/>
+                        android:layout_margin="@dimen/_7sdp"
+                        android:src="@drawable/jibonanondo"/>
 
                     <TextView
                         android:layout_width="@dimen/_200sdp"
                         android:layout_height="wrap_content"
-                        android:text="কাজী নজরুল ইসলাম"
+                        android:text="জীবনানন্দ দাশ "
                         android:textStyle="bold|italic"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_20sdp"
