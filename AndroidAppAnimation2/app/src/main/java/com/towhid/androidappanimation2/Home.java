@@ -27,7 +27,7 @@ import retrofit2.Response;
 
 public class Home extends AppCompatActivity {
 
-    private ImageView notification;
+    private ImageView notification, lionsClubs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,8 @@ public class Home extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
 
         SlideApi slideApi = ApiClient.getRetrofit().create(SlideApi.class);
 
@@ -69,6 +71,7 @@ public class Home extends AppCompatActivity {
                 }
 
 
+
             }
 
             @Override
@@ -77,16 +80,35 @@ public class Home extends AppCompatActivity {
             }
         });
 
-//For Notification Image in
-        notification = findViewById(R.id.notification);
+
+        // For Notification Image in Home
+        notification=findViewById(R.id.notification);
 
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Notification.class);
+                Intent intent=new Intent(getApplicationContext(), Notification.class);
                 startActivity(intent);
+
             }
         });
+
+
+        // For Notification Image in Home
+        lionsClubs=findViewById(R.id.lionsClubs);
+
+        lionsClubs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), LionsClubDashboard.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
 
     }
 }

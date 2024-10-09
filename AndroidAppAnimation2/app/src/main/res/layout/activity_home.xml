@@ -19,7 +19,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_180sdp"
+                android:layout_height="@dimen/_150sdp"
                 android:layout_margin="@dimen/_6sdp"
                 android:background="@drawable/home_top"
                 android:orientation="vertical">
@@ -32,14 +32,14 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="@dimen/_80sdp"
-                        android:layout_height="@dimen/_80sdp"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
                         android:layout_margin="@dimen/_3sdp"
                         android:src="@drawable/logo" />
 
                     <ImageView
-                        android:layout_width="@dimen/_80sdp"
-                        android:layout_height="@dimen/_80sdp"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
                         android:layout_margin="@dimen/_3sdp"
                         android:src="@drawable/logo2" />
                 </LinearLayout>
@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
                 android:background="@drawable/home_middle"
-                android:layout_margin="@dimen/_30sdp"
+                android:layout_margin="@dimen/_15sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -149,7 +149,7 @@
                 <com.denzcoskun.imageslider.ImageSlider
                     android:id="@+id/image_slider"
                     android:layout_width="wrap_content"
-                    android:layout_height="@dimen/_170sdp"
+                    android:layout_height="@dimen/_120sdp"
                     android:layout_marginLeft="@dimen/_4sdp"
                     android:layout_marginRight="@dimen/_4sdp"
                     app:iss_auto_cycle="true"
@@ -159,6 +159,85 @@
                     app:iss_delay="1000"
                     app:iss_text_align="CENTER"/>
 
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/home_middle"
+                android:layout_margin="@dimen/_15sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:id="@+id/directors"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:src="@drawable/logo4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic|bold"
+                        android:gravity="center"
+                        android:text="Directors"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:id="@+id/lionsClubs"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:src="@drawable/logo3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic|bold"
+                        android:gravity="center"
+                        android:text="Lions Club"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:id="@+id/leoClubs"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:src="@drawable/logo5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic|bold"
+                        android:gravity="center"
+                        android:text="Leo Clubs"
+                        android:textColor="@color/white"/>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
