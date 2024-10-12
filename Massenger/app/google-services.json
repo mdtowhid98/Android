@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766878528037",
+    "project_id": "massenger-fa90a",
+    "storage_bucket": "massenger-fa90a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766878528037:android:17bb04b9de790f9fbf45cc",
+        "android_client_info": {
+          "package_name": "com.towhid.massenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Rde1kewngkg0VI9UWZ6XEGFiBZxwZ1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
