@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79135458164",
+    "project_id": "fir-data-13bb6",
+    "storage_bucket": "fir-data-13bb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79135458164:android:c46f81bf00c84ee2882221",
+        "android_client_info": {
+          "package_name": "com.towhid.firebasedata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9VmwgEQZ4kBkzDbHALLmZfz8Fvl3ZaDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
