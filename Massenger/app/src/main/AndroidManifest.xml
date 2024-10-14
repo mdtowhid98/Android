@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Massenger"
         tools:targetApi="31">
+        <activity
+            android:name=".setting"
+            android:exported="false" />
+        <activity
+            android:name=".chatwindo"
+            android:exported="false" />
         <activity
             android:name=".registration"
             android:exported="false" />
@@ -28,18 +35,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

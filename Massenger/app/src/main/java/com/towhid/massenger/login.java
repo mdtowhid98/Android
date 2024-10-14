@@ -50,7 +50,7 @@ public class login extends AppCompatActivity {
         logsignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(login.this, MainActivity.class);
+                Intent intent = new Intent(login.this, registration.class);
                 startActivity(intent);
                 finish();
             }
