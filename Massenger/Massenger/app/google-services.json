@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "705398303934",
+    "project_id": "massenger-7458f",
+    "storage_bucket": "massenger-7458f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705398303934:android:a3f007c5c1c9c813c542ef",
+        "android_client_info": {
+          "package_name": "com.towhid.massenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBlNahIvzsiNlwm7YY0iD9hBlvNTw7mCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+
+
+}

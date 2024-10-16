@@ -36,16 +36,16 @@
             android:textColor="@color/white"
             android:fontFamily="@font/poppins_regular"
             android:textSize="@dimen/_15sdp"
-            android:layout_margin="@dimen/_5sdp"/>
+            android:layout_margin="@dimen/_10sdp"/>
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/msgadpter"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_502sdp"
+        android:layout_height="502dp"
         android:layout_above="@id/ll2"
         android:layout_below="@+id/ll1"
-        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginTop="7dp"
         android:layout_marginBottom="-7dp"
         android:padding="@dimen/_10sdp" />
 
@@ -72,8 +72,8 @@
 
             <EditText
                 android:id="@+id/textmsg"
-                android:layout_width="@dimen/_300sdp"
-                android:layout_height="@dimen/_45sdp"
+                android:layout_width="338dp"
+                android:layout_height="45dp"
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_gravity="center"
                 android:background="@null"

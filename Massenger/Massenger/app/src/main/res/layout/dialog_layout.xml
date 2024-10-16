@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/_325sdp"
-    android:layout_height="@dimen/_234sdp"
+    android:layout_width="325dp"
+    android:layout_height="234dp"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:layout_margin="@dimen/_13sdp"
+    android:layout_margin="13dp"
     android:background="@drawable/shapedialog">
 
     <ImageView
@@ -13,13 +13,13 @@
         android:layout_height="@dimen/_45sdp"
         android:src="@drawable/logout"
         android:layout_gravity="center"
-        android:layout_margin="@dimen/_13sdp"/>
+        android:layout_margin="13dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Do You really want to \n log out?"
-        android:textSize="@dimen/_19sdp"
+        android:textSize="19dp"
         android:gravity="center"
         android:layout_margin="@dimen/_8sdp"
         android:fontFamily="@font/poppins_regular"/>
@@ -33,7 +33,7 @@
             android:id="@+id/nobnt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_13sdp"
+            android:layout_margin="13dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="No"
@@ -43,7 +43,7 @@
             android:id="@+id/yesbnt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_13sdp"
+            android:layout_margin="13dp"
             android:layout_weight="1"
             android:gravity="center"
             android:text="Yes"

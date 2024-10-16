@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/settingprofile"
-        android:layout_width="@dimen/_179sdp"
-        android:layout_height="@dimen/_149sdp"
+        android:layout_width="179dp"
+        android:layout_height="149dp"
         app:layout_constraintBottom_toTopOf="@+id/settingname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:id="@+id/settingname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_216sdp"
+        android:layout_marginTop="216dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
@@ -53,7 +53,7 @@
         android:layout_width="@dimen/_100sdp"
         android:layout_height="@dimen/_35sdp"
         android:text="Save"
-        app:cornerRadius="@dimen/_25sdp"
+        app:cornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
