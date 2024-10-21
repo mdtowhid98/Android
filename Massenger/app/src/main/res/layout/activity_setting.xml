@@ -52,7 +52,7 @@
         android:backgroundTint="@color/black"
         android:layout_width="@dimen/_100sdp"
         android:layout_height="@dimen/_35sdp"
-        android:text="Save"
+        android:text="Update"
         app:cornerRadius="@dimen/_25sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
