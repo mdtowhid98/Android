@@ -23,14 +23,21 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(MainActivity.this,MapActivity.class);
+                // Start the new activity
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
+
+                // Optional: Finish MainActivity so the user cannot return to it
                 finish();
             }
-        },3000);
+        }, 3000);
+
+
+
 
     }
 }
